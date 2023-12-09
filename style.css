@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    background-color: white;
+}
+.anchor{
+    color: #7A7A7A;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{  
+    font-size:20px;
+    padding:40px;
+    cursor:pointer;
+}
+.anchor:hover{
+    color: #EDF6F9;
+}
+
+.welcome{
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+}
+.profile{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("pic.jpeg");
+    background-size: cover;
+}
+.about{
+    height: 550px;
+    background-color: white;
+}
+.self{
+    text-align: center;
+    color:#028090;
+    margin:0px 30px 30px 30px;
+    font-size:25px;
+    font-family:'Dancing Script', cursive;
+
+}
+.myskill{
+    margin-top: 20px;
+    color:#A7A2A9;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+}
+.skill{
+    margin-top:20px ;
+    height: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+    margin-top:80px ;
+    height: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.course{
+    color: #028090;
+    font-size:100px;
+    text-align:center;
+    height:150px;
+    margin-top: 10px;
+    width:150px;
+    border: solid 2px #343A40;
+    border-radius: 25%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.course:hover{
+    background-color:black;
+}
+.name{
+    font-size: 20px;
+}
+.proname{
+    padding:20px 0px 20px 0px;
+
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    color:#A7A2A9;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;;
+}
+.projects{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro{
+    color: #028090;
+    background-image: url("cal.png");
+    background-size:contain;
+    font-size:100px;
+    text-align:center;
+    height:350px;
+    width:350px;
+    border: solid 2px #343A40;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clone{
+    background-image: url("todo.jpg");
+    background-size:contain;
+    font-size:100px;
+    text-align:center;
+    height:350px;
+    width:350px;
+    border: solid 2px #343A40;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont{
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;;
+}
+.contact{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.reply{display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 30px 0px 40px;
+    height: 50px;
+    width:300px;
+    background-color: white;
+    border: solid 2px  #7A7A7A;
+}
+.replyimg{
+    color: #028090;
+    font-size: 30px;
+}
+.replyinfo{
+    color: #7A7A7A;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.social{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px 0px 30px;
+}
